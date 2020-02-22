@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <!--Flaticon-->
+    <link rel="stylesheet" href="https://www.flaticon.com/authors/freepik">
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css">
+    <!-- Font Oswald -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAV and Burger-->
+    <nav>
+        <a class="Start" href="#">Start</a>
+        <a class="About" href="#">About</a>
+        <a class="Skills" href="#">Skills</a>
+        <a class="Projects" href="#">Projects</a>
+        <a class="Contact" href="#">Contact</a>
+    </nav>        
+    <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div> <!-- End Nav and burger -->
+
+    <!-- HEADER -->
+    <header id="Start" class="s0">
+        <h1>Witaj na mojej stronie!</h1>
+        <h2>Front-end developer</h2>
+    </header> <!-- End Header -->
+
+    <!-- ABOUT -->
+    <section id="About" class="s1 about">
+        <article class="art1 clearfix">
+            <h1>O mnie</h1>
+            <img src="icons/about.png" alt="about">
+            <p>Cześć, jestem Marcin. Od urodzenia mieszkam w Krakowie, tutaj ukończyłem studia na Uniwesytecie Jagiellońskim i tutaj też pracuję. Jestem osobą komunikatywną. Lubię pracę zespołową, gdyż uważam, że jest naprawdę efektywna. Niektórzy twierdzą, że zbytnio zwracam uwagę na szczegóły - ma to jednak swoje plusy. Obecnie dążę do tego by zostać Front-end Developerem.
+            </p>
+        </article>
+        <article class="art2 clearfix">
+            <h2>Zainteresowania</h2>
+            <img src="icons/climbing.png" alt="hobby">
+            <p>Od kilku już lat związany jestem ze wspinaczką sportową. Sport ten daje mi mnóstwo satysfakcji, a dodatkowo rozwija na wielu płaszczyznach. To nie tylko kwestia nabywania coraz większej wydolności i siły, to również psychika i nastawienie na ciągły rozwój. Mówiąc wprost: "głowa" i motywacja są tutaj niezmiernie ważne. Tak jak i w programowaniu! 
+            </p>
+        </article>
+        <article class="art3 clearfix">
+            <h2>Nowa pasja</h2>
+            <img src="icons/passion.png" alt="passion">
+            <p>W zeszłym roku postanowiłem, że pora zmienić branżę na taką, która daje możliwość ciągłego rozwoju. Wybór był prosty – programowanie stron internetowych oraz aplikacji. W tym celu staram sie pogłębiać swoją wiedzę i umiejętności, korzystając między innymi z wiedzy doświadczonych programistów prowadzących kursy internetowe. Chciałbym podjąć pracę w firmie, która umożliwi mi dalszą naukę i rozwój jako Front-end Developer.</p>
+        </article>
+    </section> <!-- End About -->
+
+    <!-- SKILLS -->
+    <section id="Skills" class="s2 skills">
+        <article class="art4">
+            <h1>Umiejętności</h1>
+            <div class="icon-skills">
+                <img src="icons/html.png">
+                <img src="icons/css.png">
+                <img src="icons/js.png">
+                <img src="icons/jQuery.png">
+                <img src="icons/bootstrap.png">
+            </div>
+        </article>
+    </section>  <!-- End Skills -->  
+
+    <!-- PROJECTS -->
+    <section id="Projects" class="s3 projects"> 
+        <article class="art5">
+            <h1>Projekty</h1>
+            <div class="projects-wrap">
+                <div class="projects-cont">
+                    <h3 class="project-title">Slider</h3>        
+                    <a href="https://marcin0115.github.io/Slider-on-click/" target="_blank" class="project-link"><i class="fas fa-search "></i></a>
+                    <p class="project-info">Galeria zdjęć w JS</p>
+                </div>
+                <div class="projects-cont">
+                    <h3 class="project-title">Cennik</h3>        
+                    <a href="https://marcin0115.github.io/Cennik/" target="_blank" class="project-link"><i class="fas fa-search "></i></a>
+                    <p class="project-info">Cennik wykonany Flexem</p>
+                </div>
+                <div class="projects-cont">
+                    <h3 class="project-title">Pop-up</h3>        
+                    <a href="https://marcin0115.github.io/Pop-up-in-JS/" target="_blank" class="project-link"><i class="fas fa-search "></i></a>
+                    <p class="project-info">Okienko z modalem</p>
+                </div>
+                <div class="projects-cont">
+                    <h3 class="project-title">Gra w JS</h3>        
+                    <a href="https://marcin0115.github.io/Game-JS/" target="_blank" class="project-link"><i class="fas fa-search "></i></a>
+                    <p class="project-info">Prosta gra pamięciowa</p>
+                </div>
+            </div>
+        </article>
+    </section> <!-- End Projects -->      
+
+    <!-- CONTACT -->
+    <section id="Contact" class="s4 contact">
+        <h2>Kontakt</h2>
+        <div class="line_contact"></div>
+        <!-- ICONS -->
+		<div class="contact_social">
+            <!-- GITHUB icon-->
+            <a class="icon-social" href="https://github.com/marcin0115" target="_blank">
+                <i class="fab fa-github icon_contact"></i>
+            </a>
+            <!-- CONTACT FORM -->
+            <div class='form'>
+                <p>
+                    <input type="text" placeholder="imię" onfocus="this.placeholder=' '" onblur="this.placeholder='imię'">
+                    <input type="text" placeholder="nazwisko" onfocus="this.placeholder=' '" onblur="this.placeholder='nazwisko'">
+                    <input type="text" placeholder="telefon kontaktowy" onfocus="this.placeholder=' '" onblur="this.placeholder='telefon kontaktowy'">
+                    <textarea rows="5" cols="30"></textarea>
+                    <input type="submit" value="Wyślij">
+                </p>
+            </div>
+            <!-- CV icon-->
+            <a class="icon-social" href="files/cv.pdf" target="_blank">
+                <i class="fas fa-file-alt icon_contact cv"></i>
+            </a>
+        </div>
+    </section> <!-- End Contact --> 
+
+    <!--FOOTER-->
+    <footer>
+        <div>© 2020 all rights reserved</div>
+    </footer>
+
+    <!-- Arrow -->
+    <div class='arrow'>
+        <i class="fas fa-arrow-circle-up"></i>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="burger.js"></script>
+    <script src="menuScroll.js"></script>
+    
+</body>
+</html>
